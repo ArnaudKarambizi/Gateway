@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Zanzibar | Contact</title>
+
+        <!-- LINKS TO CSS AND FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Oregano|Patua+One|Raleway&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/normalize.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    
+    <body>
+        <header class="header">
+            <nav class="header-nav nav-container">
+                <ul class="header-nav-list">
+                    <li><a href="index.html"> Home</a></li>
+                    <Li><a href="todo.html"> Things To Do</a></Li>
+                    <li><a href="eat.html"> Where To Eat</a></li>
+                    <Li><a href="contact.html" class="selected"> Contact Us</a></Li>
+                </ul>
+                <form class="header-search">
+                    <input type="search" placeholder="Search..." name="search" class="header-search-bar" />
+                    <input type="submit" value="search" class="header-button" />
+                </form>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero hero-contact">
+                <h1 class="hero-text">Contact</h1>
+            </section>
+
+            <section class="contact container">
+                <h2>Contact us</h2>
+                <p>We are here to answer any question you may have about our website. reach out to us and we'll respond as soon as we can.</p>
+                <form class="contact-form" action="#">
+                    <div class="contact-names">
+                        <label for="firstName">First Name </label>
+                        <input type="text" name="FirstName" id="firstName" placeholder="First Name" required />
+                
+                        <label for="LastName">Last Name </label>
+                        <input type="text" name="LastName" id="LastName" placeholder="Last Name" required />
+                    </div>
+                    <div class="contact-email">
+                        <label for="email"> Email Address </label>
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    </div>
+                    <div class="contact-phone">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Phone Number" />
+                    </div>
+                    <div class="contact-comment">
+                        <label for="comment">Comment </label>
+                        <textarea id="comment" required></textarea>
+                    </div>
+
+                    <button class="contact-button" type="submit" name="submit">SUBMIT</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-links nav-container">
+                <ul class="footer-list">
+                    <h3>Links:</h3>
+                    <li><a href="index.html"> Home</a></li>
+                    <Li><a href="todo.html"> Things To Do</a></Li>
+                    <li><a href="eat.html"> Where To Eat</a></li>
+                    <Li><a href="contact.html"> Contact Us</a></Li>
+                </ul>
+
+                <!--LINKS TO SOCIAL MEDIA-->
+                <ul class="footer-icons">
+                    <h3>Follow:</h3>
+                    <li>
+                        <a href="https://www.instagram.com/zanzibarguide/">
+                            <img src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" alt="Instagram Icon" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/pages/category/Travel-Company/Zanzibar-guide">
+                            <img src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" alt="Facebok Icon" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/zanzibarcuracao?lang=en">
+                            <img src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" alt="Twitter Icon" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=1A1caCCKn5A">
+                            <img src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube40x40.png" alt="Youtube Icon" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; 2019 Arnaud Karambizi</p>
+            </div>
+        </footer>
+    </body>
+</html>
